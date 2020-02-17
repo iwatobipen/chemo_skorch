@@ -1,10 +1,8 @@
 name: chemoenv
 channels:
   - conda-forge
-  - pytorch
 dependencies:
   - rdkit
-  - pytorch
   - numpy
   - scikit-learn
   - scipy
@@ -12,4 +10,5 @@ dependencies:
   - tqdm
   - pip
   - pip:
+    - pytorch
     - skorch
